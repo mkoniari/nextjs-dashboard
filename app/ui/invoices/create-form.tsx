@@ -16,7 +16,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
         {/* Customer Name */}
         <div className="mb-4">
           <label htmlFor="customer" className="mb-2 block text-sm font-medium">
-            Choose customer
+           Επιλογή Πελάτη
           </label>
           <div className="relative">
             <select
@@ -41,7 +41,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
         {/* Invoice Amount */}
         <div className="mb-4">
           <label htmlFor="amount" className="mb-2 block text-sm font-medium">
-            Choose an amount
+            Δώσε ποσό
           </label>
           <div className="relative mt-2 rounded-md">
             <div className="relative">
@@ -61,7 +61,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
         {/* Invoice Status */}
         <fieldset>
           <legend className="mb-2 block text-sm font-medium">
-            Set the invoice status
+            Κατάσταση τιμολογίου
           </legend>
           <div className="rounded-md border border-gray-200 bg-white px-[14px] py-3">
             <div className="flex gap-4">
